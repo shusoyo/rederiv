@@ -1,0 +1,6 @@
+(library
+ (name rederiv)
+ (modules regex dfa brzozowski)
+ (libraries base)
+ (preprocess
+  (pps ppx_jane ppx_quick_test)))
